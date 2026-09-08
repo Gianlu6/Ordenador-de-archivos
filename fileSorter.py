@@ -40,31 +40,31 @@ def create_dirs(file, file_type, base_path):
                 os.rename(file, ruta_completa)
                 
             if folder.lower() == 'documentos':    
-                            carpeta_destino = os.path.join(base_path, folder)                  
-                            if (os.path.isdir(carpeta_destino) == False):
-                                os.makedirs(carpeta_destino, exist_ok=True)
-                                
-                            ruta_completa = os.path.join(carpeta_destino, os.path.basename(file))
-            
-                            os.rename(file, ruta_completa)
-                            
+                carpeta_destino = os.path.join(base_path, folder)                  
+                if (os.path.isdir(carpeta_destino) == False):
+                    os.makedirs(carpeta_destino, exist_ok=True)
+                    
+                ruta_completa = os.path.join(carpeta_destino, os.path.basename(file))
+
+                os.rename(file, ruta_completa)
+                
             if folder.lower() == 'musica':    
-                            carpeta_destino = os.path.join(base_path, folder)                  
-                            if (os.path.isdir(carpeta_destino) == False):
-                                os.makedirs(carpeta_destino, exist_ok=True)
-                                
-                            ruta_completa = os.path.join(carpeta_destino, os.path.basename(file))
-            
-                            os.rename(file, ruta_completa)
+                carpeta_destino = os.path.join(base_path, folder)                  
+                if (os.path.isdir(carpeta_destino) == False):
+                    os.makedirs(carpeta_destino, exist_ok=True)
+                    
+                ruta_completa = os.path.join(carpeta_destino, os.path.basename(file))
+
+                os.rename(file, ruta_completa)
 
             if folder.lower() == 'datos':    
-                            carpeta_destino = os.path.join(base_path, folder)                  
-                            if (os.path.isdir(carpeta_destino) == False):
-                                os.makedirs(carpeta_destino, exist_ok=True)
-                                
-                            ruta_completa = os.path.join(carpeta_destino, os.path.basename(file))
-            
-                            os.rename(file, ruta_completa)
+                carpeta_destino = os.path.join(base_path, folder)                  
+                if (os.path.isdir(carpeta_destino) == False):
+                    os.makedirs(carpeta_destino, exist_ok=True)
+                    
+                ruta_completa = os.path.join(carpeta_destino, os.path.basename(file))
+
+                os.rename(file, ruta_completa)
 
 if __name__ == "__main__":
     main()
