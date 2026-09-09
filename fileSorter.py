@@ -20,9 +20,7 @@ def main():
     for dirs, subdirs, files in os.walk(usuario, topdown=True, onerror=None):
         if carpeta in subdirs:
             path = os.path.join(dirs, carpeta)
-    
-    print(path)
-    
+        
     if os.path.exists(path):
         try:            
             for file in os.listdir(path):
