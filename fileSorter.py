@@ -7,7 +7,9 @@ CATEGORIAS = {
     ".jpg": "Imagenes", ".png": "Imagenes", ".gif": "Imagenes",
     ".pdf": "Documentos", ".docx": "Documentos", ".txt": "Documentos",
     ".mp3": "Musica", ".wav": "Musica",
-    ".csv": "Datos", ".json": "Datos"
+    ".csv": "Datos", ".json": "Datos", ".xls": "Datos",
+    ".mp4": "Video", ".avi": "Video", ".mov": "Video",
+    ".exe": "Ejecutables", ".bat": "Ejecutables"
 }
 
 def main():
