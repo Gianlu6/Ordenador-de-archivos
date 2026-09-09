@@ -4,7 +4,7 @@
 import os 
 
 CATEGORIAS = {
-    ".jpg": "Imagenes", ".png": "Imagenes", ".gif": "Imagenes",
+    ".jpg": "Imagenes", ".jpeg": "Imagenes", ".png": "Imagenes", ".gif": "Imagenes", ".webp": "Imagenes",
     ".pdf": "Documentos", ".docx": "Documentos", ".txt": "Documentos",
     ".mp3": "Musica", ".wav": "Musica",
     ".csv": "Datos", ".json": "Datos", ".xls": "Datos",
