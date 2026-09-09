@@ -11,6 +11,7 @@ CATEGORIAS = {
 }
 
 def main():
+    #Al pegar el path aca, asegurate de ponerle "" y cambiar la barra diagonal a /
     path = #your path
 
     if os.path.exists(#your path):
