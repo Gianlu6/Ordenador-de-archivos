@@ -17,7 +17,7 @@ def main():
     
     carpeta = input("¿Que directorio queres ordenar?: ").strip()
     
-    for dirs, subdirs, files in os.walk(usuario, topdown=True, onerror=None):
+    for dirs, subdirs, _ in os.walk(usuario, topdown=True, onerror=None):
         if carpeta in subdirs:
             path = os.path.join(dirs, carpeta)
         
